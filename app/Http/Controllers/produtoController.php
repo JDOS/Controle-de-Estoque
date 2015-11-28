@@ -3,6 +3,22 @@ use Illuminate\Support\Facades\DB;
 use Request;
 use estoque\Produto;
 use estoque\Http\Requests\ProdutosRequest;
+
+
+/*
+
+Classe controle de Produtos
+
+	+lista()
+	+Mostra()
+	+Novo()
+	+Adiciona()
+	+Remove()
+	+Edita()
+	+Altera()
+
+*/
+
 class ProdutoController extends Controller {
 
 	public function __construct()
